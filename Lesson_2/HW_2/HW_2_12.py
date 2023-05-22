@@ -13,3 +13,10 @@ from math import sqrt
 num1 = int((S - sqrt (D)) / 2)
 num2 = int((S + sqrt (D)) / 2)
 print(f'{S}, {P} -> {num1}, {num2}')
+
+# x = int(input("Введите значение суммы двух чисел: "))
+# y = int(input("Введите значение произведения двух чисел: "))
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
