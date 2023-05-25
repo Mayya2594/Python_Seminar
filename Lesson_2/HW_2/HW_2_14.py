@@ -4,12 +4,12 @@
 
 N = int(input("Введите число: "))
 num = 1
-while num < N:
-    print(num)
+while num <= N:
+    print(num, end= ' ')
     num = num * 2
 
 # n = int(input("Введите число: "))
 # i = 0
 # while 2 ** i <= n:
-#     print(2 ** i)
+#     print(2 ** i, end= ' ')
 #     i +=1
