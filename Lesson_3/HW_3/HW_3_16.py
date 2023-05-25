@@ -11,11 +11,9 @@ n = int(input("Введите количество элементов масси
 list_1 = []
 for i in range(n):
     list_1.append(int(input("Введите значение элемента массива: ")))
-    i += 1
 x = int(input("Введите число: "))
 count = 0
 for i in range(n):
     if x == list_1[i]:
         count += 1
-    i += 1
 print(f'Число {x} встречается в массиве {count} раз')
