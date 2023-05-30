@@ -9,12 +9,14 @@ import random
 n = int(input("Введите количество элементов массива 1: "))
 list_1 = []
 for i in range(n):
-    list_1.append(random.randint(1, 10))
+    list_1.append(random.randint(1, 100))
 print(list_1)
 m = int(input("Введите количество элементов массива 2: "))
 list_2 = []
 for i in range(m):
-    list_2.append(random.randint(1, 10))
+    list_2.append(random.randint(1, 100))
 print(list_2)
 result = set(list_1).union(set(list_2))
-print(result)
+list_res = list(result)
+list_res.sort()
+print(list_res)
